@@ -21,6 +21,7 @@ apt-get install -y apt-transport-https \
     iputils-ping \
     net-tools \
     ncat \
+    socat \
     iproute2 \
     netstat-nat \
     strace \

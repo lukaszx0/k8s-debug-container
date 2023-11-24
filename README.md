@@ -15,7 +15,7 @@ Docker image to use as Kubernetes debug container
 - [`dnsutils`](https://packages.debian.org/stretch/dnsutils) - includes [`dig`](https://linux.die.net/man/1/dig), [`nslookup`](https://linux.die.net/man/1/nslookup), [`nsupdate`](https://linux.die.net/man/8/nsupdate).
 - [`iputils-ping`](https://packages.debian.org/stretch/iputils-ping) - includes [`ping`](https://linux.die.net/man/8/ping).
 - [`net-tools`](https://packages.debian.org/stretch/net-tools) - includes [`arp`](http://man7.org/linux/man-pages/man8/arp.8.html), [`ifconfig`](https://linux.die.net/man/8/ifconfig), and [`netstat`](https://linux.die.net/man/8/netstat).
-- [`tcpdump`](https://www.tcpdump.org/), [`traceroute`](https://linux.die.net/man/8/traceroute), [`netstat-nat`](https://linux.die.net/man/1/netstat-nat), [`netcat`](https://linux.die.net/man/1/nc), [`telnet`](https://linux.die.net/man/1/telnet) - common networking tools.
+- [`tcpdump`](https://www.tcpdump.org/), [`traceroute`](https://linux.die.net/man/8/traceroute), [`netstat-nat`](https://linux.die.net/man/1/netstat-nat), [`netcat`](https://linux.die.net/man/1/nc), [`socat`](https://linux.die.net/man/1/socat), [`telnet`](https://linux.die.net/man/1/telnet) - common networking tools.
 - [`iproute2`](https://wiki.linuxfoundation.org/networking/iproute2) - modern replacement for `net-tools` utils:
 
 | Legacy utility       | Replacement command  | Note                                |
